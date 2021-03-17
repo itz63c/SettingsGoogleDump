@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_assist_gesture" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/columbus_gesture_training_intro_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+        <TextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" style="@style/SudDescription.Glif" />
+        <com.google.android.setupdesign.view.Illustration android:id="@id/columbus_gesture_illustration" android:background="@drawable/gesture_columbus" android:layout_width="@dimen/assist_illustration_layout_width" android:layout_height="@dimen/assist_illustration_layout_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app_layout_constraintVertical_bias="0.6" style="@style/SudContentIllustration" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.setupdesign.GlifLayout>
