@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/columbus_app_list_item_spacing_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@id/radio_button" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/columbus_app_icon_padding" android:layout_weight="1.0" android:textAlignment="viewStart" android:paddingStart="@dimen/columbus_app_icon_padding" />
+    <View android:id="@id/divider" android:background="?android:dividerVertical" android:visibility="gone" android:layout_width="0.75dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    <ImageView android:id="@id/extras_icon" android:background="?android:selectableItemBackground" android:padding="@dimen/columbus_extras_icon_padding" android:visibility="gone" android:layout_width="@dimen/columbus_app_icon_size" android:layout_height="@dimen/columbus_app_icon_size" android:src="@drawable/ic_settings_accent" android:layout_weight="0.0" />
+</LinearLayout>

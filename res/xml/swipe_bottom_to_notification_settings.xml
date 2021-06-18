@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/swipe_bottom_to_notifications_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:persistent="false" android:layout="@layout/one_handed_header" android:selectable="false" android:key="one_handed_header" settings:searchable="false" settings:allowDividerBelow="false" />
+    <SwitchPreference android:title="@string/swipe_bottom_to_notifications_title" android:key="gesture_swipe_bottom_to_notification" android:summary="@string/swipe_bottom_to_notifications_summary" settings:controller="com.android.settings.gestures.SwipeBottomToNotificationPreferenceController" settings:allowDividerAbove="true" />
+</PreferenceScreen>

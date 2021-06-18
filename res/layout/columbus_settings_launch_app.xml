@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/help_text" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/columbus_setting_app_selection_help_text" android:drawableLeft="@drawable/ic_info" android:drawablePadding="16.0dip" android:layout_weight="0.0" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/apps" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/power_menu_setting_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/power_menu_long_press_for_assist" android:key="gesture_power_menu_long_press_for_assist" android:summary="@string/power_menu_long_press_for_assist_summary" settings:controller="com.android.settings.gestures.LongPressPowerButtonPreferenceController" />
+</PreferenceScreen>

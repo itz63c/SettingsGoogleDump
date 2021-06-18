@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:priv-android="http://schemas.android.com/apk/prv/res/android">
+    <item>
+        <shape>
+            <solid android:color="?android:bool/config_bluetooth_pan_enable_autoconnect" />
+        </shape>
+    </item>
+</layer-list>
